@@ -1,0 +1,8 @@
+[core]
+    remote = myremote
+['remote "azure_remote"']
+    url = azure://dvc-test
+    connection_string = DefaultEndpointsProtocol=https
+['remote "myremote"']
+    url = azure://dvc-test
+    account_name = stak4ow44qkuwqg
